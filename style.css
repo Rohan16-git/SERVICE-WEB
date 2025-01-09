@@ -1,0 +1,25 @@
+.carousel-item {
+    /* position: relative; */
+  }
+
+  .carousel-caption {
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    color: white;
+    /* text-align: center; */
+  }
+
+  .carousel-caption h5 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  .carousel-caption p {
+    font-size: 1.2rem;
+  }
+
+  .carousel-caption .btn {
+    margin-top: 15px;
+  }
