@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light py-4  ">
+        <div class="container-fluid me-4">
+          <a class="navbar-brand ms-4 fs-4" href="#">Infosys</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active px-5 fs-5" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-5 fs-5" href="./Blogs.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-5 fs-5"  href="./about us.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-5 fs-5" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="btn btn-outline-primary me-2 fs-5" href="./login page.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-primary fs-5" href="./signup.html">Signup</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <br><br>
+
+      <h2 class="mb-4 text-center">Blogs</h2>
+    <div class="cards-section">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <!-- Card 1 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/cybersecurity/download.jpg" class="card-img-top" alt="Service 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Cyber security</h5>
+                            <p class="card-text">
+                                Future-Proofing Your Data Storage: Strategies for Long-Term Data Retention.</p>
+                            <button class="btn btn-primary read-more-btn" data-service="Cyber security" data-description="
+                            In business, nothing stays the same. Regulations change, new security threats appear overnight, and data continues to expand at an exponential pace. Today there are over 147 zettabytes of data in the entire digital universe, up from 64.2 zettabytes in 2020.* This trend of explosive data growth is expected to become even more pronounced moving forward.
+
+Your data supports decision-making, drives innovation, and allows you to out-beat your competition. If you’re simply keeping up, you’re already falling behind. The only way to survive this relentless surge of data and environment of constant change is to implement strategies that protect your data and prepare it for unpredictable yet inevitable shifts." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/cloud computing/360_F_507662376_BTKmPlIGBvKlRHWKRNeFt7bj7H2SynQm.jpg" class="card-img-top" alt="Service 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Cloud Computing</h5>
+                            <p class="card-text">Zunesis Recognized on the Prestigious 2024 CRN Tech Elite 250 List
+                            </p>
+                            <button class="btn btn-primary read-more-btn" data-service="Cloud Computing" data-description="Cloud Computing at [Your IT Service Firm Name]
+
+                            Cloud computing is a transformative technology that allows businesses to access a wide array of services over the internet, without the need to maintain physical infrastructure. By leveraging the power of cloud platforms, we empower organizations to scale their IT resources on demand, improve operational efficiency, and reduce costs.
+                            
+                            At [Your IT Service Firm Name], we specialize in providing secure, scalable, and reliable cloud computing solutions tailored to your business needs. Our team of experts works with you to design and implement custom cloud strategies that can help streamline your operations, enhance collaboration, and unlock new growth opportunities." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/data sc and machine lear/shutterstock_1058815598-1024x659.webp" class="card-img-top" alt="Service 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Data Science and Machine Learning</h5>
+                            <p class="card-text">Future-Proof Your Business with Modern Server Technology</p>
+                            <button class="btn btn-primary read-more-btn" data-service="Data Science and Machine Learning" data-description="Your server technology can be your greatest asset or your biggest liability. Where does your business fall on that spectrum?
+
+                            Data volume is growing exponentially. This is common knowledge. Less widely recognized, however, is the strain this massive influx of data puts on legacy servers. These systems were never designed to handle such diverse and intensive processing needs. With mounting pressure to make important decisions based on an inordinate amount of data, your outdated servers can set you up for failure—creating not just technical issues, but also bottlenecks that can cripple business operations." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/prog and soft/1000_F_967983960_P67mhyn3LKMwE6LAsGtNsupvR4OHxwME.jpg" class="card-img-top" alt="Service 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Programming and Soft Development</h5>
+                            <p class="card-text">Building Resilient Data Centers with an Advanced Network Architecture
+                            </p>
+                            <button class="btn btn-primary read-more-btn" data-service="Programming and Soft Development" data-description="Data Center Resilience
+                            Your data center is the central nervous system of your enterprise, orchestrating the flow of information that powers everything from everyday communications to complex computational processes. At a time when the demand for uninterrupted digital services continues to escalate, maintaining a resilient data center is not a luxury—it’s a necessity. According to recent research, the average cost of downtime for large organizations hovers around $9,000 per minute. In high-stakes sectors like finance and healthcare, the financial impact can reach millions per hour, not to mention the additional costs from fines or penalties.*
+                            
+                            A robust data center is not just about preventing downtime; it’s about ensuring the entire IT infrastructure can anticipate, withstand, and react to various types of disruptions, whether from a natural disaster, a cyberattack, or a simple hardware failure—without losing functionality. The foundation of such resilience is an advanced network architecture that supports and reinforces all layers of data center operations." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/networking/cyber_topic_63.jpg" class="card-img-top" alt="Service 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Networking</h5>
+                            <p class="card-text">How Network-as-a-Service is Simplifying IT Operations with AI-Driven Network Management
+                            </p>
+                            <button class="btn btn-primary read-more-btn" data-service="Networking" data-description="
+
+                            
+                            Today, networks are no longer centralized in an office or data center; they now span across offices, remote locations, and cloud environments. Keeping these diverse network elements running smoothly requires constant monitoring, quick configuration changes, and rapid responses to network incidents—tasks that traditional network models struggle to manage efficiently.
+
+                            Network-as-a-Service (NaaS) has emerged as a game-changer in this space, offering flexibility, scalability, and a streamlined approach to network management. The integration of Artificial Intelligence (AI) in recent years has radically enhanced these capabilities, automating complex processes and infusing intelligence into network management like never before." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
