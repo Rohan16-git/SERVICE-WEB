@@ -1,9 +1,6 @@
 .carousel-item {
     position: relative;
   }
-
- 
-
   .carousel-caption {
     /* position: absolute; */
     /* top: 50%;
@@ -12,9 +9,10 @@
     color: white;
     /* text-align: center; */
   }
-  .navbar{
-    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
-  }
+
+  /* .navbar{
+    background: rgba(0, 0, 0, 0.6); 
+  } */
 
   .carousel-caption h5 {
     font-size: 3rem;
@@ -59,6 +57,28 @@
     font-size: 1rem;
     line-height: 1.6;
   }
-.footer-container{
-  background: lightgray
-}
+  .footer-container ul {
+    list-style-type: none; /* Removes bullets */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+  }
+  
+  .footer-container ul li {
+    margin-bottom: 10px; /* Adds spacing between items (optional) */
+  }
+  
+  .footer-container ul li a {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Keeps the text color consistent */
+  }
+  
+  .footer-container ul li a:hover {
+    text-decoration: underline; /* Optional: Adds underline on hover */
+    color: #007bff; /* Optional: Changes color on hover */
+  }
+
+  .card-img-top{
+    height: 200px;
+    width: 100;
+    object-fit: cover;
+  }
